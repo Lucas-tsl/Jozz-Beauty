@@ -1,0 +1,22 @@
+
+/* Ajout du code poursurligner progréssivement header*/
+.menu-item-type-custom.menu-item-object-custom a {
+    position: relative;
+    text-decoration: none; /* Enlever le soulignement par défaut */
+    color: black; /* La couleur du texte, à ajuster selon tes besoins */
+}
+
+.menu-item-type-custom.menu-item-object-custom a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px; /* Épaisseur du soulignement */
+    background-color: black; /* Couleur du soulignement */
+    transition: width 0.5s ease-in-out; /* Transition pour le soulignement progressif */
+}
+
+.menu-item-type-custom.menu-item-object-custom a:hover::after {
+    width: 100%; /* Le soulignement s'étend sur toute la largeur lors du hover */
+}
