@@ -1,4 +1,7 @@
 # Joss Beauty
+![Jozz_new-logo](https://github.com/user-attachments/assets/b16a160c-efc7-4c5a-a6b8-4e257a0cc753)
+
+
 
 Bonjour à tous,
 
