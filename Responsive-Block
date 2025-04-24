@@ -1,0 +1,14 @@
+/* Dupliquer le bloc concerné, lui attribuer une classe spécifique (par exemple : .mobile ou .desktop),
+   puis utiliser le CSS pour afficher ou masquer les versions en fonction de la taille de l’écran. */
+.header-mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .header-desktop {
+    display: none !important;
+  }
+  .header-mobile {
+    display: block !important;
+  }
+}
